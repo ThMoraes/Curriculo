@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 15px 35px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    padding: 3px;
+}
+
+
+/*nome no topo*/
+.dono{
+    padding-bottom: 10px;
+}
+
+
+/*inf-pessoal*/
+.inf-1{
+    padding: 5px;
+    padding-top: 15px;
+}
+.descricao{
+    text-align: justify;
+}
+.nome-link{
+    text-align: center;
+}
+
+
+/* inf-adicionais */
+.cont-inf-ad{
+    padding: 5px;
+    padding-top: 15px;
+}
+.top-inf-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*infs*/
+.experiencia,.escolaridade{
+    padding: 3px 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+
+.cargo,.atuacao,.desc-escolaridade{
+    padding: 3px;
+    padding-left: 25px;
+}
+
+
+/*exportação*/
+.exportacao{
+    text-align: center;
+    padding-top:  20px;
+}
