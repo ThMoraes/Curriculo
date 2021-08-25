@@ -1,0 +1,284 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* barra de rolagem */
+body::-webkit-scrollbar {
+    width: 5px;
+}  
+body::-webkit-scrollbar-track {
+    background: #708090;
+    border-left: 1px solid #b0c4ded0;     
+}  
+body::-webkit-scrollbar-thumb {
+    background-color: #1E90FF;  
+    border-radius: 20px;     
+    border: 3px solid #000;
+}
+/*topo*/
+.topo{
+    display: flex;
+    background-color: #000;
+    padding: 7px 0px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    border-right: solid 2px #b0c4de65;
+}
+.botaoTopo{
+    border-right: solid 2px #b0c4de65;
+    margin: auto 5px;
+}
+#nomeBotaoMenu,#nomeBotaoMenuHover,#nomeBotaoMenuClose{
+    font-size: 30px;
+}
+.nomeTopo{
+    color: #1E90FF;
+    font-size: 35px;
+}
+
+
+/* menu */
+.menu{
+    display: none;
+    padding-top: 54px;
+    height: 100vh;
+    width: 100%;
+    background-color: #1E90FF;    
+    /* background-color: #4285F4; */
+}
+.menuMostrar{
+    display: flex;
+    padding-top: 54px;
+    height: 100vh;
+    width: 100%;
+    background-color: #1E90FF; 
+}
+.menuPagina{
+    padding: 5px;
+}
+.nomeMenuPagina{
+    font-size: 20px;
+    color: #000;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+
+/* Conteudos */
+.conteudosOcultar{
+    display: none;
+}
+.conteudos{
+    padding-top: 54px;
+}
+
+.conteudo{
+    min-height: 100vh;
+    max-height: 100%;
+    display: flex;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+/*geral*/
+h2.nomeInformacao{
+    padding: 15px 0px;
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+.descriacaoPessoal,.descricaoPerfilProfissional,.descricaoEscolaridade,.descricaoExperiencia,.curso,.conhecimentos,.competencias{
+    padding: 5px 0px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.descricaoEscolaridade,.descricaoExperiencia{
+    padding-left: 15px;
+    text-align: justify;
+}
+.escolaridade,.experiencia{
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 19px;
+}
+
+.descricaoConteudo{
+    margin: auto 0px;
+}
+
+
+/*conteudoInformacoesPessoal*/
+
+.informacoesPessoal1,.informacoesPessoal2{
+    margin: auto ;
+}
+.informacoesPessoal1{
+    width: 70%;
+}
+.informacoesPessoal2{
+    width: 30%;
+    display: flex;
+    justify-content:center;
+}
+.nomeDono{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.descriacaoPessoal{
+    font-size: 18px;
+    padding-left: 0px;
+}
+h3.nomeInformacao{
+    padding: 5px 0px;
+    font-size: 20px;
+}
+.descricaoPerfilProfissional{
+    text-indent: 20px;    
+    padding-left: 0px;
+}
+
+.fotoDono{
+    width: 80%;
+    margin: 2px;
+}
+
+
+/*conteudoRedes*/
+.redes{
+    display: grid;
+    width: 100%;
+}
+.redes ul.topicoRedes{
+    display: flex;
+    justify-content:space-around; 
+}
+.rede{
+    text-align: center;
+    padding: 20px 0px;
+}
+.nomeLink{
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+
+/*conhecimentos*/
+.divTopico ul.topicoConhecimentos{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+.conhecimentos{
+    width: 50%;
+}
+
+
+/*competencias*/
+.divTopico{
+    display: grid;
+    grid-template-columns: 90vw;
+}
+.divTopico ul.topicoCompetencias{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+.competencias{
+    width: 50%;
+}
+
+
+/*download*/
+.descricaoConteudo{  
+    display: grid;
+    grid-template-columns: 95vw;
+}
+.download{
+    text-align: center;
+    padding: 50px;
+}
+.nomeLinkDownload{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #1E90FF;
+    box-shadow: 0px 5px 15px #001427;
+    border: 1px solid #00477c;
+    border-radius: 100px;
+}
+
+
+/* botão menu */
+.nomeBotaoMenu{
+    display: flex;
+    font-weight: bolder;
+    color: #87CEFA;
+    margin: 0px 5px;
+}
+.nomeBotaoMenuHover{
+    display: none;
+    font-weight: bolder;
+    color: #000;
+}
+.nomeBotaoMenuClose{
+    display: none;
+    font-weight: bolder;
+    color: #87CEFA;
+    margin: 0px 5px;
+}
+
+
+.nomeBotaoMenuOcultar{
+    display: none;
+}
+.nomeBotaoMenuHoverMostrar{
+    display: flex;
+}
+.nomeBotaoMenuCloseMostrar{
+    display: flex;
+}
+
+
+.nomeBotaoMenuClose:hover{
+    transform: rotate(180deg);
+    transition: 0.5s;
+    background-color: red;
+    border-radius: 50%;
+    /* padding: 2px;
+    margin: 0px 3px; */
+    color: #000;
+}
+
+
+/* botão topo */
+#conteudoBotaoTopo{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    padding: 5px;
+}
+#botaoInicioPagina{
+    color: rgba(255, 255, 255, 0.542);
+    font-size: 28px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.494);
+    border-radius: 10px;
+}
+#botaoInicioPagina:hover{
+    color: #000;    
+    background-color: rgba(0, 0, 0, 0.694);
+}

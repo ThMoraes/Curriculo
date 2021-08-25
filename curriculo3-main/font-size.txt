@@ -1,0 +1,8 @@
+nomeDono = 40px
+descriacaoPessoal = 20px
+descricaoPerfilProfissional =20px
+nomeInformacao = 37px
+escolaridade = 20px
+descricaoEscolaridade = 17px
+experiencia = 20px
+descricaoExperiencia = 17px

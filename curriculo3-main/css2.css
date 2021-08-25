@@ -1,0 +1,344 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* barra de rolagem */
+body::-webkit-scrollbar {
+    width: 5px;
+}  
+body::-webkit-scrollbar-track {
+    background: #708090;
+    border-left: 1px solid #b0c4ded0;     
+}  
+body::-webkit-scrollbar-thumb {
+    background-color: #1E90FF;  
+    border-radius: 20px;     
+    border: 3px solid #000;
+}
+/*topo*/
+.topo{
+    display: flex;
+    /* background-color: #000; */
+    padding: 7px 0px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    border-right: solid 2px #b0c4de65;
+    border-bottom: solid 2px #b0c4de65;
+}
+.botaoTopo{
+    border-right: solid 2px #b0c4de65;
+    margin: auto 5px;
+}
+#nomeBotaoMenu,#nomeBotaoMenuHover,#nomeBotaoMenuClose{
+    font-size: 30px;
+}
+.nomeTopo{
+    color: #1E90FF;
+    font-size: 35px;
+}
+
+
+/* menu */
+.menu{
+    display: none;
+    padding-top: 54px;
+    height: 100vh;
+    width: 100%;
+    background-color: #1E90FF;    
+    /* background-color: #4285F4; */
+}
+.menuMostrar{
+    display: flex;
+    padding-top: 54px;
+    height: 100vh;
+    width: 100%;
+    background-color: #1E90FF; 
+}
+.menuPagina{
+    padding: 5px;
+}
+.nomeMenuPagina{
+    font-size: 20px;
+    color: #000;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+
+
+
+/*geral*/
+.conteudos{
+    width: 95%;
+    margin: auto;
+    background-color: #1E90FF;
+    
+}
+.conteudo:first-child{
+    padding-top: 54px;
+}
+
+
+.nomeInformacao{
+    font-size: 37px;
+    padding-bottom: 40px;
+}
+
+
+/*conteudoInformacoesPessoal*/
+#conteudoInformacoesPessoal{
+    max-height: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+#informacoesPessoal1{
+    margin: auto;
+}
+    .nomeDono{
+        font-size: 45px;
+    }
+    .descriacaoPessoal{
+        font-size: 20px;
+        padding: 5px 0px;
+    }
+    .descricaoPerfilProfissional{
+        font-size: 20px;
+        padding: 5px 0px;
+        text-indent: 30px;
+        text-align: justify;
+    }
+
+
+#informacoesPessoal2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+    #fotoDono{
+        width: 50%;
+        height: 30%;
+        padding: 10px;
+    }
+
+
+/*conteudoRedes*/
+#conteudoRedes{
+    max-height: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+#descricaoConteudoRedes{
+    margin: auto;
+    justify-items:left;
+}
+    #redes{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+/*conteudoEscolaridade*/
+#conteudoEscolaridade{
+    max-height: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+#descricaoConteudoEscolaridade{
+    margin: auto 0px;
+}
+.escolaridade{
+    font-size: 20px;
+}
+.descricaoEscolaridade{
+    font-size: 17px;
+    padding: 6px 0px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+
+/*conteudoExperiencia*/
+#conteudoExperiencia{
+    max-height: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+#descricaoConteudoExperiencia{
+    margin: auto 0px;
+}
+
+.experiencia{
+    font-size: 20px;
+}
+.descricaoExperiencia{
+    font-size: 17px;
+    padding: 3px 0px;
+    padding-left: 10px;
+}
+#atuacao{
+    padding-bottom: 15px;
+}
+
+
+/*conteudoCursos*/
+#conteudoCursos{
+    max-height: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+#descricaoConteudoCursos{
+    margin: auto 0px;
+}
+.curso{
+    font-size: 20px;
+    padding: 6px 0px;
+}
+
+
+
+
+/*conteudoConhecimentos*/
+#conteudoConhecimentos{
+    max-height: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+#descricaoConteudoConhecimentos{
+    margin: auto 0px;
+}
+.topicoConhecimentos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.conhecimento{
+    width: calc(100% / 2);
+    padding: 0px calc(25vw / 2);
+    align-content: center;
+    font-size: 20px;
+}
+
+/*conteudoCompetencias*/
+#conteudoCompetencias{
+    max-height: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+#descricaoConteudoCompetencias{
+    margin: auto 0px;
+}
+.topicoCompetencias{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.competencia{
+    width: calc(100% / 2);
+    padding: 0px calc(25vw / 2);
+    align-content: center;
+    font-size: 20px;
+}
+
+/*conteudoDownload*/
+#conteudoDownload{
+    max-height: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+#descricaoConteudoDownload{
+    margin: auto 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* botão menu */
+.nomeBotaoMenu{
+    display: flex;
+    font-weight: bolder;
+    color: #87CEFA;
+    margin: 0px 5px;
+}
+.nomeBotaoMenuHover{
+    display: none;
+    font-weight: bolder;
+    color: #000;
+}
+.nomeBotaoMenuClose{
+    display: none;
+    font-weight: bolder;
+    color: #87CEFA;
+    margin: 0px 5px;
+}
+
+
+.nomeBotaoMenuOcultar{
+    display: none;
+}
+.nomeBotaoMenuHoverMostrar{
+    display: flex;
+}
+.nomeBotaoMenuCloseMostrar{
+    display: flex;
+}
+
+
+.nomeBotaoMenuClose:hover{
+    transform: rotate(180deg);
+    transition: 0.5s;
+    background-color: red;
+    border-radius: 50%;
+    /* padding: 2px;
+    margin: 0px 3px; */
+    color: #000;
+}
+
+
+/* botão topo */
+#conteudoBotaoTopo{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    padding: 5px;
+}
+#botaoInicioPagina{
+    color: rgba(255, 255, 255, 0.542);
+    font-size: 28px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.494);
+    border-radius: 10px;
+}
+#botaoInicioPagina:hover{
+    color: #000;    
+    background-color: rgba(0, 0, 0, 0.694);
+}
