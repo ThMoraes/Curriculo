@@ -307,6 +307,9 @@ body::-webkit-scrollbar-thumb {
 
 
 @media print{
+    body{
+        background:  #ffffff;
+    }
     #conteudoBotao{
         display: none;
     }
